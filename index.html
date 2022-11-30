@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Centimeter to Kilometer</title>
+  </head>
+  <body>
+    <h1 style="text-align: center; font-size: 25px; color: black">
+      CM to KM Converter
+    </h1>
+    <p>Type in your cm value below</p>
+    <p>
+      <label for="">Centimeter</label>
+      <input
+        id="inputCentimeter"
+        type="number"
+        placeholder="input your centimeter Value"
+        oninput="LengthConverter(this.value)"
+        onchange="LengthConverter(this.value)">
+      
+    
+      <p>Kilometer: <span id="outputKilograms"></span></p>
+    
+    </p>
+    <script src="app.js"></script>
+  </body>
+</html>
